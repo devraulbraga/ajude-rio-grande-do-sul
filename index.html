@@ -12,30 +12,47 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #1a1a2e;
-            color: #ffffff;
+            background-color: #0d0d1a; /* Mais escuro */
+            color: #d9d9d9; /* Mais claro */
             line-height: 1.6;
         }
         .container {
             width: 80%;
             margin: 20px auto;
             padding: 20px;
-            background-color: #16213e;
+            background-color: #0a0a17; /* Mais escuro */
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
             border-radius: 10px;
         }
+        a:link {
+        color: #37c5ff; /* cor do link normal */
+        text-decoration: none; /* remover sublinhado */
+    }
+    
+    a:visited {
+        color: #37c5ff; /* cor do link após visitado */
+    }
+    
+    a:hover {
+        color: #37c5ff; /* cor do link ao passar o mouse */
+        text-decoration: underline; /* adicionar sublinhado ao passar o mouse */
+    }
+    
+    a:active {
+        color: inherit; /* cor do link após clicar */
+    }
         h1 {
-            color: #ffffff;
+            color: #d9d9d9; /* Mais claro */
             font-size: 2.5em;
             margin-bottom: 10px;
         }
         h2 {
-            color: #0fbcf9;
+            color: #0ab9f9; /* Mais claro */
             font-size: 2em;
             margin-top: 30px;
         }
         h3 {
-            color: #4bcffa;
+            color: #37c5ff; /* Mais claro */
             font-size: 1.5em;
             margin-bottom: 10px;
         }
@@ -44,12 +61,12 @@
         }
         .location {
             padding: 15px;
-            background-color: #283c63;
+            background-color: #142030; /* Mais escuro */
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
         }
         .location-address a {
-            color: #4bcffa;
+            color: #37c5ff; /* Mais claro */
             text-decoration: none;
         }
         .location-address a:hover {
@@ -65,10 +82,10 @@
             margin: 0 -10px;
         }
         .slick-prev, .slick-next {
-            color: #ffffff;
+            color: #d9d9d9; /* Mais claro */
         }
         .slick-dots li button:before {
-            color: #ffffff;
+            color: #d9d9d9; /* Mais claro */
         }
         ol {
             padding-left: 20px;
@@ -80,20 +97,20 @@
         .footer {
             margin-top: 30px;
             text-align: center;
-            color: #a1a1a1;
+            color: #808080; /* Mais claro */
         }
         .news-updates, .testimonials, .contact-form, .faq {
             margin-top: 30px;
-            background-color: #283c63;
+            background-color: #142030; /* Mais escuro */
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
         }
         .news-updates h2, .testimonials h2, .contact-form h2, .faq h2 {
-            color: #0fbcf9;
+            color: #0ab9f9; /* Mais claro */
         }
         .news-updates p, .testimonials p, .contact-form p, .faq p {
-            color: #ffffff;
+            color: #d9d9d9; /* Mais claro */
         }
         .contact-form label, .contact-form input, .contact-form textarea {
             display: block;
@@ -104,19 +121,19 @@
             padding: 10px;
             border-radius: 5px;
             border: none;
-            background-color: #ffffff;
-            color: #1a1a2e;
+            background-color: #d9d9d9; /* Mais claro */
+            color: #0d0d1a; /* Mais escuro */
         }
         .contact-form button {
             padding: 10px 20px;
-            background-color: #0fbcf9;
+            background-color: #0ab9f9; /* Mais claro */
             border: none;
             border-radius: 5px;
-            color: #ffffff;
+            color: #d9d9d9; /* Mais claro */
             cursor: pointer;
         }
         .contact-form button:hover {
-            background-color: #0fa0e9;
+            background-color: #0a98e9; /* Mais escuro */
         }
         @media (max-width: 768px) {
             .container {
@@ -168,7 +185,7 @@
         </div>
 
         <div class="footer">
-            <p>By Raul Lopes </p>
+            <p>By <a href="https://www.instagram.com/eu.raullopes/">Raul Lopes</a></p>
             <p>&copy; 2024 Campanha de Doação. Todos os direitos reservados.</p>
         </div>
     </div>
